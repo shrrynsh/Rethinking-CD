@@ -1,0 +1,155 @@
+Subtask,Method,Accuracy,R_No_To_Yes,Yes %
+existence,baseline (greedy),0.9667,N/A (Baseline),46.67%
+existence,baseline (sample),0.9333,N/A (Baseline),46.67%
+existence,vcd (greedy),0.9500,0.5,51.67%
+existence,vcd (sample),0.9667,2.0,50.00%
+existence,icd (greedy),0.9667,N/A (No Flips),46.67%
+existence,icd (sample),0.9167,1.0,45.00%
+existence,sid (greedy),0.9500,0.5,51.67%
+existence,sid (sample),0.9333,2.0,50.00%
+existence,pba (greedy),0.9667,1.0,50.00%
+existence,olm (greedy),0.9500,0.5,51.67%
+existence,apc (sample),0.9500,1.0,48.33%
+count,baseline (greedy),0.8500,N/A (Baseline),45.00%
+count,baseline (sample),0.6833,N/A (Baseline),51.67%
+count,vcd (greedy),0.7667,0.4444,66.67%
+count,vcd (sample),0.8000,1.1429,60.00%
+count,icd (greedy),0.8500,N/A (No Flips),45.00%
+count,icd (sample),0.7833,2.6667,55.00%
+count,sid (greedy),0.8167,0.6667,51.67%
+count,sid (sample),0.6833,1.0,51.67%
+count,pba (greedy),0.7667,0.2857,60.00%
+count,olm (greedy),0.6667,0.3125,80.00%
+count,apc (sample),0.6667,1.6667,43.33%
+position,baseline (greedy),0.7667,N/A (Baseline),63.33%
+position,baseline (sample),0.6167,N/A (Baseline),58.33%
+position,vcd (greedy),0.7167,0.0,68.33%
+position,vcd (sample),0.7333,1.3333,56.67%
+position,icd (greedy),0.7500,N/A (No Flips),61.67%
+position,icd (sample),0.7833,Infinity,48.33%
+position,sid (greedy),0.7500,0.0,65.00%
+position,sid (sample),0.7667,3.0,53.33%
+position,pba (greedy),0.7000,0.0,70.00%
+position,olm (greedy),0.6667,0.0,73.33%
+position,apc (sample),0.7000,2.0,60.00%
+color,baseline (greedy),0.8500,N/A (Baseline),55.00%
+color,baseline (sample),0.7667,N/A (Baseline),53.33%
+color,vcd (greedy),0.8000,0.0,60.00%
+color,vcd (sample),0.8167,0.8,58.33%
+color,icd (greedy),0.9000,N/A (No Flips),50.00%
+color,icd (sample),0.8667,1.6667,53.33%
+color,sid (greedy),0.8333,0.0,56.67%
+color,sid (sample),0.8000,0.6667,60.00%
+color,pba (greedy),0.8500,1.0,58.33%
+color,olm (greedy),0.8333,0.75,66.67%
+color,apc (sample),0.8333,1.3333,46.67%
+posters,baseline (greedy),0.7653,N/A (Baseline),27.89%
+posters,baseline (sample),0.7143,N/A (Baseline),32.99%
+posters,vcd (greedy),0.7721,1.6364,36.05%
+posters,vcd (sample),0.7517,4.2857,34.69%
+posters,icd (greedy),0.7551,N/A (No Flips),26.19%
+posters,icd (sample),0.6939,3.6,25.51%
+posters,sid (greedy),0.7789,11.0,29.93%
+posters,sid (sample),0.7143,2.6667,27.55%
+posters,pba (greedy),0.8469,9.0,38.10%
+posters,olm (greedy),0.8469,2.5,46.94%
+posters,apc (sample),0.7483,5.2,30.95%
+celebrity,baseline (greedy),0.7882,N/A (Baseline),34.71%
+celebrity,baseline (sample),0.6765,N/A (Baseline),43.53%
+celebrity,vcd (greedy),0.8059,1.1765,56.47%
+celebrity,vcd (sample),0.7529,1.4286,50.59%
+celebrity,icd (greedy),0.7794,N/A (No Flips),29.12%
+celebrity,icd (sample),0.6853,1.4444,33.24%
+celebrity,sid (greedy),0.7588,1.6667,30.00%
+celebrity,sid (sample),0.7118,2.4,30.00%
+celebrity,pba (greedy),0.7559,0.7317,55.59%
+celebrity,olm (greedy),0.7529,0.7778,62.94%
+celebrity,apc (sample),0.6353,1.1429,35.29%
+scene,baseline (greedy),0.8425,N/A (Baseline),39.75%
+scene,baseline (sample),0.7975,N/A (Baseline),41.25%
+scene,vcd (greedy),0.8300,1.1,42.50%
+scene,vcd (sample),0.8200,2.3077,42.50%
+scene,icd (greedy),0.8275,N/A (No Flips),37.25%
+scene,icd (sample),0.8250,8.0,38.50%
+scene,sid (greedy),0.8300,Infinity,37.50%
+scene,sid (sample),0.8075,4.0,37.75%
+scene,pba (greedy),0.8600,2.0,45.00%
+scene,olm (greedy),0.8625,1.4,51.75%
+scene,apc (sample),0.8375,4.1667,39.75%
+landmark,baseline (greedy),0.8850,N/A (Baseline),50.00%
+landmark,baseline (sample),0.7450,N/A (Baseline),44.00%
+landmark,vcd (greedy),0.8725,0.7273,58.75%
+landmark,vcd (sample),0.7950,1.6897,52.50%
+landmark,icd (greedy),0.8575,N/A (No Flips),42.25%
+landmark,icd (sample),0.7450,2.0,35.50%
+landmark,sid (greedy),0.8575,0.5,46.75%
+landmark,sid (sample),0.7625,1.8,43.25%
+landmark,pba (greedy),0.8725,0.7368,58.25%
+landmark,olm (greedy),0.8175,0.449,67.75%
+landmark,apc (sample),0.7500,1.3704,44.00%
+artwork,baseline (greedy),0.7275,N/A (Baseline),49.75%
+artwork,baseline (sample),0.6650,N/A (Baseline),54.00%
+artwork,vcd (greedy),0.6875,0.6923,71.25%
+artwork,vcd (sample),0.6850,0.8163,67.50%
+artwork,icd (greedy),0.7175,0.0,45.25%
+artwork,icd (sample),0.7025,1.12,48.25%
+artwork,sid (greedy),0.7550,1.5,46.50%
+artwork,sid (sample),0.6925,0.871,50.75%
+artwork,pba (greedy),0.7175,0.875,64.75%
+artwork,olm (greedy),0.6500,0.5571,77.00%
+artwork,apc (sample),0.6375,0.7714,50.25%
+OCR,baseline (greedy),0.7750,N/A (Baseline),47.50%
+OCR,baseline (sample),0.6250,N/A (Baseline),57.50%
+OCR,vcd (greedy),0.8000,1.0,45.00%
+OCR,vcd (sample),0.5750,1.0,47.50%
+OCR,icd (greedy),0.7250,N/A (No Flips),42.50%
+OCR,icd (sample),0.6000,0.6667,40.00%
+OCR,sid (greedy),0.7500,0.0,45.00%
+OCR,sid (sample),0.6750,2.0,57.50%
+OCR,pba (greedy),0.7500,0.6667,60.00%
+OCR,olm (greedy),0.5750,0.2727,82.50%
+OCR,apc (sample),0.7000,1.0,50.00%
+commonsense_reasoning,baseline (greedy),0.6929,N/A (Baseline),43.57%
+commonsense_reasoning,baseline (sample),0.6214,N/A (Baseline),46.43%
+commonsense_reasoning,vcd (greedy),0.7143,5.0,45.71%
+commonsense_reasoning,vcd (sample),0.6500,1.3333,45.00%
+commonsense_reasoning,icd (greedy),0.7000,Infinity,42.86%
+commonsense_reasoning,icd (sample),0.6786,2.125,42.14%
+commonsense_reasoning,sid (greedy),0.6714,1.0,35.71%
+commonsense_reasoning,sid (sample),0.6500,2.0,33.57%
+commonsense_reasoning,pba (greedy),0.7214,1.3333,63.57%
+commonsense_reasoning,olm (greedy),0.6786,0.913,75.00%
+commonsense_reasoning,apc (sample),0.5857,0.7143,44.29%
+numerical_calculation,baseline (greedy),0.4000,N/A (Baseline),15.00%
+numerical_calculation,baseline (sample),0.5250,N/A (Baseline),47.50%
+numerical_calculation,vcd (greedy),0.3500,0.3333,25.00%
+numerical_calculation,vcd (sample),0.3250,0.6667,37.50%
+numerical_calculation,icd (greedy),0.4000,N/A (No Flips),15.00%
+numerical_calculation,icd (sample),0.5750,1.0,32.50%
+numerical_calculation,sid (greedy),0.4000,N/A (No Flips),15.00%
+numerical_calculation,sid (sample),0.5000,3.0,25.00%
+numerical_calculation,pba (greedy),0.3750,0.6667,27.50%
+numerical_calculation,olm (greedy),0.5250,1.5,77.50%
+numerical_calculation,apc (sample),0.3750,1.0,42.50%
+text_translation,baseline (greedy),0.5250,N/A (Baseline),2.50%
+text_translation,baseline (sample),0.6000,N/A (Baseline),30.00%
+text_translation,vcd (greedy),0.5000,0.6667,15.00%
+text_translation,vcd (sample),0.5500,0.8,30.00%
+text_translation,icd (greedy),0.5500,Infinity,5.00%
+text_translation,icd (sample),0.7250,2.25,42.50%
+text_translation,sid (greedy),0.5000,N/A (No Flips),0.00%
+text_translation,sid (sample),0.5000,1.0,25.00%
+text_translation,pba (greedy),0.6250,1.3333,72.50%
+text_translation,olm (greedy),0.6000,1.1875,90.00%
+text_translation,apc (sample),0.5250,0.6,32.50%
+code_reasoning,baseline (greedy),0.5500,N/A (Baseline),20.00%
+code_reasoning,baseline (sample),0.5500,N/A (Baseline),40.00%
+code_reasoning,vcd (greedy),0.5250,0.5,17.50%
+code_reasoning,vcd (sample),0.4500,0.5714,40.00%
+code_reasoning,icd (greedy),0.5750,N/A (No Flips),17.50%
+code_reasoning,icd (sample),0.4000,0.4,35.00%
+code_reasoning,sid (greedy),0.5750,1.0,27.50%
+code_reasoning,sid (sample),0.4750,1.0,47.50%
+code_reasoning,pba (greedy),0.4000,0.3333,50.00%
+code_reasoning,olm (greedy),0.5000,0.8667,90.00%
+code_reasoning,apc (sample),0.6000,2.0,30.00%

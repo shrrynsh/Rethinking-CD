@@ -1,0 +1,7 @@
+# large or regenerated artifacts are never committed
+models/
+data/
+outputs/
+__pycache__/
+*.pyc
+*.log

@@ -1,0 +1,17 @@
+# Exact versions used to produce the original runs (Lightning studio, NVIDIA L4).
+# The vendored LLaVA package in scripts/llava has been patched to work with this
+# (recent) transformers; do not downgrade transformers or LLaVA imports break.
+#
+# Install into a fresh env with a CUDA-capable PyTorch, e.g.:
+#   pip install torch==2.8.0   # (matching your CUDA; here cu128)
+#   pip install -r requirements.txt
+
+torch==2.8.0
+transformers==5.12.1
+tokenizers==0.22.2
+accelerate==1.14.0
+sentencepiece==0.2.1
+qwen-vl-utils
+einops==0.6.1
+numpy==1.26.4
+pillow==12.2.0
