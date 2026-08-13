@@ -1,7 +1,5 @@
-outputs/
 logs/
 data/llava_bench/
 __pycache__/
 *.pyc
-analysis/*.csv
-analysis/*.png
+
